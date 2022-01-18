@@ -1,0 +1,63 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3 ,h4 ,h5 ,h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 600px;
+	height: 400px;
+	background-color: green;
+	position: relative;
+}
+.red{
+	width: 250px;
+	height: 250px;
+	background-color: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 18%;
+	left: 27%;  
+}
+.fb{
+	width: 150px;
+	position: fixed;
+	top: 40%;
+	right: -7%;
+	transition: 1s;
+}
+.fb:hover{
+	right: 0;
+	cursor: pointer;
+}
+.fb-1{
+	width: 150px;
+	position: fixed;
+	top: 48%;
+	right: -7%;
+	transition: 1s;
+}
+.fb-1:hover{
+	right:0;
+	cursor: pointer;
+}
+.fb-2{
+	width: 150px;
+	position: fixed;
+	top: 55%;
+	right: -7%;
+	transition: 1s;
+}
+.fb-2:hover{
+	right:0;
+	cursor: pointer;
+}
